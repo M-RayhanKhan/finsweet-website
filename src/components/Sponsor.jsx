@@ -1,11 +1,15 @@
 import Marquee from "react-fast-marquee";
 
 
+
+
+
+
 const Sponsor = () => {
     const sponsorImg = [
         {
           id: 1,
-          img: "https://i.ibb.co.com/v126s8M/Logo-1.png",
+          img: "https://i.ibb.co.com/z6gjsbs/Logo-1.png",
         },
         {
           id: 2,
@@ -13,15 +17,15 @@ const Sponsor = () => {
         },
         {
           id: 3,
-          img: "https://i.ibb.co.com/vwkGH6K/Logo-3.png",
+          img: "https://i.ibb.co.com/1RH4y7p/Logo-3.png",
         },
         {
           id: 4,
-          img: "https://i.ibb.co.com/vwkGH6K/Logo-4.png",
+          img: "https://i.ibb.co.com/8gFq0ck/Logo-4.png",
         },
         {
           id: 5,
-          img: "https://i.ibb.co.com/vwkGH6K/Logo-5.png",
+          img: "https://i.ibb.co.com/MMB6LnH/Logo-5.png",
         },
       ];
   return (

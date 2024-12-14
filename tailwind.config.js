@@ -8,6 +8,7 @@ export default {
   theme: {
     extend: {
       textColor: {
+        title: "#1d2130",
         description: '#1d2130',
         btnColor: "#ffffff"
       },

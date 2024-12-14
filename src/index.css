@@ -17,7 +17,17 @@ html{
 }
 
 .discover{
-    background: linear-gradient(180deg, #3959f6, rgb(17, 192, 219));
+    background: linear-gradient(to right, #588adb, #487de3, #406fe9, #435eec, #514aec, #5e42ea, #693ae7, #742fe4, #7a3ae2, #8044e1, #864edf, #8b57dd);
     background-clip: text;
     color: transparent;
+}
+
+.Btn{
+    background: #1d2130;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.ready-gradient {
+    background: linear-gradient(to top, #b2f2fe, #c5f3ff, #d8f4ff, #e8f6ff, #f5f9ff, #f9fbff, #fdfdff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
 }
