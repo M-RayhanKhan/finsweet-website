@@ -2,9 +2,9 @@
 
 const Pricing = () => {
     return (
-        <div>
-            Pricing
-        </div>
+  <div>
+    
+  </div>
     );
 };
 

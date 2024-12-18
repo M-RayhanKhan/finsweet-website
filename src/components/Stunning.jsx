@@ -1,17 +1,17 @@
 import Carousel from 'react-grid-carousel'
 const Stunning = () => {
     return (
-        <section className="max-w-7xl mx-auto my-[66px]">
+        <section className="max-w-[1320px] mx-auto my-[66px]">
         <h2 className="md:text-5xl text-xl font-bold text-center md:w-[628px] mx-auto">The stunning results our
             customers have
             experienced</h2>
             {/* lg device  */}
     <div className='hidden lg:block mt-10'>
-    <Carousel  cols={3} autoplay={1000}  scrollSnap={true}  rows={1} hideArrow={true} gap={20} loop={true}>
+    <Carousel  cols={3} autoplay={2000}    rows={1} hideArrow={true} gap={20} loop={true}>
       <Carousel.Item>
         {/* card 1 */}
-      <div className=" border rounded-3xl ">
-                <div className="text-center space-y-6 p-12">
+      <div className=" border rounded-3xl p-12">
+                <div className="text-center space-y-6 ">
                     <h2 className="text-lg font-semibold">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                         diam nonumy eirmod tempor invidunt
                         ut labore et dolore magna aliquyam erat, sed diam voluptua.</h2>
@@ -148,7 +148,7 @@ const Stunning = () => {
     </div>
             {/* medium device  */}
     <div className='lg:hidden mt-10'>
-    <Carousel  cols={2} autoplay={2000}  scrollSnap={true}  rows={1} hideArrow={true} gap={15} loop={true}>
+    <Carousel  cols={2} autoplay={2000}   rows={1} hideArrow={true} gap={15} loop={true}>
       <Carousel.Item>
         {/* card 1 */}
       <div className=" border rounded-3xl ">

@@ -6,7 +6,7 @@ const Business = () => {
         <div className="md:py-16 text-center lg:text-start py-10 p-2">
             <div className="max-w-7xl mx-auto flex items-center flex-col lg:flex-row">
                 <div className="space-y-6 flex-1">
-                    <h2 className="md:text-2xl text-xl font-bold">Why should you work with us?</h2>
+                    <h2 className="md:text-2xl discover text-xl font-bold">Why should you work with us?</h2>
                     <h2 className="md:text-5xl text-2xl font-bold">To upscale your business to the next level</h2>
                     <p className="md:text-[16px] text-sm leading-6">Lorem ipsum dolor sit amet, consetetur sadipscing
                         elitr, sed

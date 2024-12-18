@@ -17,7 +17,7 @@ html{
 }
 
 .discover{
-    background: linear-gradient(to right, #588adb, #487de3, #406fe9, #435eec, #514aec, #5e42ea, #693ae7, #742fe4, #7a3ae2, #8044e1, #864edf, #8b57dd);
+    background-image: linear-gradient(to right, #0714d9, #0069ff, #008fec, #00acbb, #00c494, #00d18b, #00dd7e, #00e86b, #00ef97, #00f4bc, #20f8da, #5ffbf1);
     background-clip: text;
     color: transparent;
 }
@@ -27,7 +27,25 @@ html{
     color: #ffffff;
     border-radius: 12px;
 }
+.Btn:hover{
+    background: #1d2130e2;
+    color: #ffffff;
+    border-radius: 12px;
+   
+}
 
 .ready-gradient {
-    background: linear-gradient(to top, #b2f2fe, #c5f3ff, #d8f4ff, #e8f6ff, #f5f9ff, #f9fbff, #fdfdff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    background: linear-gradient(to top, #d4d6d7e2, #c5f3ff, #d8f4ff, #e8f6ff, #f5f9ff, #f9fbff, #fdfdff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+}
+
+.product-gradient{
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fdfdff, #fafbff, #f6faff, #eaf8ff, #dcf6ff, #e2f1f7, #e2f1f7);
+}
+.borderGradient {
+    background: linear-gradient(to right, #ff7e5f, #3aca1a);
+    background-clip: border-box;
+}
+
+.product-markieting{
+    background-image: linear-gradient(to left bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fbfbff, #f6f7ff, #f0f3ff, #dfecff, #cae6ff, #b0e0ff, #90dcff);
 }

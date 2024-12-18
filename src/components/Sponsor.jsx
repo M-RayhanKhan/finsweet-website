@@ -40,28 +40,6 @@ const Sponsor = () => {
                 }
             </div>
       </Marquee>
-
-      <div className="flex justify-between">
-        {/* <div className="w-[190px]">
-                    <img className="w-full" src={sponsorLogo1} alt="" />
-                </div> */}
-        {/* sponsor img 2 */}
-        {/* <div className="w-[190px]">
-                    <img className="w-full" src={sponsorLogo2} alt="" />
-                </div> */}
-        {/* sponsor img 3 */}
-        {/* <div className="w-[190px]">
-                    <img className="w-full" src={sponsorLogo3} alt="" />
-                </div> */}
-        {/* sponsor img 4 */}
-        {/* <div className="w-[190px]">
-                    <img className="w-full" src={sponsorLogo4} alt="" />
-                </div> */}
-        {/* sponsor img 5 */}
-        {/* <div className="w-[190px]">
-                    <img className="w-full" src={sponsorLogo5} alt="" />
-                </div> */}
-      </div>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const HighQuality = () => {
       <section className="max-w-7xl mx-auto mt-[66px]">
         <div className="text-center space-y-6 lieners">
           <h2
-            className="text-xl font-bold bg-gradient-to-r from-blue-900 to-blue-400 bg-clip-text text-transparent
+            className="font-bold discover
              "
           >
             High-quality
