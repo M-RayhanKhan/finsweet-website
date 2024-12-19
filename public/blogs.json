@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "title": "7 Automation use cases that foster excellent CX",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "author": "Luke Matthews",
+      "date": "November 8, 2021",
+      "img": "example_image_1.jpg",
+      "logo_img": "example_logo_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "5 Strategies to Enhance Customer Retention",
+      "description": "Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo.",
+      "author": "Sarah Johnson",
+      "date": "March 15, 2022",
+      "img": "example_image_2.jpg",
+      "logo_img": "example_logo_2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "How AI is Transforming the Customer Journey",
+      "description": "Suspendisse potenti. Nullam ac erat ante. Ut fermentum nisl ac odio tempor.",
+      "author": "Michael Brown",
+      "date": "June 10, 2022",
+      "img": "example_image_3.jpg",
+      "logo_img": "example_logo_3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "10 Ways to Improve Your Customer Service",
+      "description": "Etiam vel augue sed lorem tincidunt aliquet nec vel elit. Fusce vel volutpat libero.",
+      "author": "Emily Davis",
+      "date": "August 22, 2021",
+      "img": "example_image_4.jpg",
+      "logo_img": "example_logo_4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Why Personalization is Key to CX Success",
+      "description": "Aliquam erat volutpat. Phasellus iaculis et magna eget facilisis. Integer nec odio urna.",
+      "author": "James Wilson",
+      "date": "January 5, 2023",
+      "img": "example_image_5.jpg",
+      "logo_img": "example_logo_5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Role of Chatbots in Modern CX",
+      "description": "Proin viverra est id nisl luctus, ac volutpat elit malesuada. Nullam semper turpis vitae purus.",
+      "author": "Anna Martinez",
+      "date": "February 14, 2022",
+      "img": "example_image_6.jpg",
+      "logo_img": "example_logo_6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "8 Tools to Simplify Customer Interactions",
+      "description": "Vivamus quis tortor nec eros ultrices hendrerit. Pellentesque id massa at risus cursus.",
+      "author": "David Clark",
+      "date": "April 30, 2022",
+      "img": "example_image_7.jpg",
+      "logo_img": "example_logo_7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Customer Feedback: Turning Insights into Action",
+      "description": "Praesent nec ligula non velit eleifend facilisis. Morbi nec enim a ligula pharetra.",
+      "author": "Sophia Hernandez",
+      "date": "May 20, 2023",
+      "img": "example_image_8.jpg",
+      "logo_img": "example_logo_8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Understanding Omnichannel Customer Experience",
+      "description": "Aenean convallis, purus a tincidunt posuere, massa dolor fringilla tortor, ut dictum metus.",
+      "author": "Chris Evans",
+      "date": "October 9, 2022",
+      "img": "example_image_9.jpg",
+      "logo_img": "example_logo_9.jpg"
+    }
+  ]
+  

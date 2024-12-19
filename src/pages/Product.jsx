@@ -20,7 +20,7 @@ const Product = () => {
             <button className="Btn  font-bold md:px-12  py-4 w-full md:w-auto">Get Started</button>
             {/* contact button */}
             <button className="relative w-full md:w-auto py-4 md:px-12 rounded-xl font-bold  overflow-hidden  border-2 border-[#e0e4fc] shadow-inner group">
-            <Link>
+            <Link to="/contact">
                 <span className="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>
                 <span className="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200 border-b-2 border-gray-600 group-hover:w-full ease"></span>
                 <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>

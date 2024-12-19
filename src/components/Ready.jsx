@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 
 const Ready = () => {
     return (
@@ -6,9 +7,12 @@ const Ready = () => {
                 <h1 className="text-[50px] text-title leading-[60px] font-bold">Are you ready to grow your business with us?</h1>
                 <p className="text-description font-normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.
                 </p>
-                <button className="Btn w-[171px] h-[56px] text-[16px] font-bold">
+             
+                <Link to="/pricing">
+                <button className="Btn w-[171px] h-[56px] text-[16px] mt-4 font-bold">
                     View Pricing
                 </button>
+                </Link>
             </div>
             <div className="">
 

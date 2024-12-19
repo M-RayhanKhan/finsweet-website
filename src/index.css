@@ -35,7 +35,7 @@ html{
 }
 
 .ready-gradient {
-    background: linear-gradient(to top, #d4d6d7e2, #c5f3ff, #d8f4ff, #e8f6ff, #f5f9ff, #f9fbff, #fdfdff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #f6f9ff, #e5f5ff, #d0f3ff, #b9f1fb);
 }
 
 .product-gradient{
@@ -48,4 +48,13 @@ html{
 
 .product-markieting{
     background-image: linear-gradient(to left bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fbfbff, #f6f7ff, #f0f3ff, #dfecff, #cae6ff, #b0e0ff, #90dcff);
+}
+
+.lead-gradient{
+    /* background-image: radial-gradient(circle, #ccf6ff, #d8f9f7, #e7fbf4, #f5fdf5, #fefffc); */
+  
+}
+
+.boxShadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
