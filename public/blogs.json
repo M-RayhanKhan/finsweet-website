@@ -5,7 +5,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
       "author": "Luke Matthews",
       "date": "November 8, 2021",
-      "img": "example_image_1.jpg",
+      "img": "https://i.ibb.co.com/rpp59P6/1.png",
       "logo_img": "example_logo_1.jpg"
     },
     {
@@ -14,7 +14,7 @@
       "description": "Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo.",
       "author": "Sarah Johnson",
       "date": "March 15, 2022",
-      "img": "example_image_2.jpg",
+      "img": "https://i.ibb.co.com/RCdPBbG/2.jpg",
       "logo_img": "example_logo_2.jpg"
     },
     {
@@ -23,7 +23,7 @@
       "description": "Suspendisse potenti. Nullam ac erat ante. Ut fermentum nisl ac odio tempor.",
       "author": "Michael Brown",
       "date": "June 10, 2022",
-      "img": "example_image_3.jpg",
+      "img": "https://i.ibb.co.com/GkP5JZh/3.png",
       "logo_img": "example_logo_3.jpg"
     },
     {
@@ -32,7 +32,7 @@
       "description": "Etiam vel augue sed lorem tincidunt aliquet nec vel elit. Fusce vel volutpat libero.",
       "author": "Emily Davis",
       "date": "August 22, 2021",
-      "img": "example_image_4.jpg",
+      "img": "https://i.ibb.co.com/4Pbh4DN/4.png",
       "logo_img": "example_logo_4.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "description": "Aliquam erat volutpat. Phasellus iaculis et magna eget facilisis. Integer nec odio urna.",
       "author": "James Wilson",
       "date": "January 5, 2023",
-      "img": "example_image_5.jpg",
+      "img": "https://i.ibb.co.com/vPD1n2Z/5.png",
       "logo_img": "example_logo_5.jpg"
     },
     {
@@ -50,7 +50,7 @@
       "description": "Proin viverra est id nisl luctus, ac volutpat elit malesuada. Nullam semper turpis vitae purus.",
       "author": "Anna Martinez",
       "date": "February 14, 2022",
-      "img": "example_image_6.jpg",
+      "img": "https://i.ibb.co.com/D5cKvKs/6.png",
       "logo_img": "example_logo_6.jpg"
     },
     {
@@ -59,7 +59,7 @@
       "description": "Vivamus quis tortor nec eros ultrices hendrerit. Pellentesque id massa at risus cursus.",
       "author": "David Clark",
       "date": "April 30, 2022",
-      "img": "example_image_7.jpg",
+      "img": "https://i.ibb.co.com/PT5XCKk/7.png",
       "logo_img": "example_logo_7.jpg"
     },
     {
@@ -68,7 +68,7 @@
       "description": "Praesent nec ligula non velit eleifend facilisis. Morbi nec enim a ligula pharetra.",
       "author": "Sophia Hernandez",
       "date": "May 20, 2023",
-      "img": "example_image_8.jpg",
+      "img": "https://i.ibb.co.com/NshVSYw/8.png",
       "logo_img": "example_logo_8.jpg"
     },
     {
@@ -77,8 +77,15 @@
       "description": "Aenean convallis, purus a tincidunt posuere, massa dolor fringilla tortor, ut dictum metus.",
       "author": "Chris Evans",
       "date": "October 9, 2022",
-      "img": "example_image_9.jpg",
+      "img": "https://i.ibb.co.com/HYLN5GG/9.png",
       "logo_img": "example_logo_9.jpg"
     }
   ]
   
+
+
+
+
+
+
+

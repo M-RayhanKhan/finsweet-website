@@ -29,10 +29,15 @@ const router = createBrowserRouter([
         },
         {
             path: '/about',
-            element: <About/>
+            element: <About/>,
+            loader: async() => {
+                const aboutRes = await fetch('/blogs.json');
+                const aboutData = await aboutRes.json();
+                return {aboutData}
+            }
         },
         {
-            path: '/blog',
+            path: '/blogs',
             element: <Blog/>
         },
         {

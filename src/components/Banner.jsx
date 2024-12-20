@@ -16,7 +16,7 @@ const Banner = () => {
               cursor
               cursorStyle="|"
               typeSpeed={70}
-              deleteSpeed={50}
+              deleteSpeed={100}
               delaySpeed={1000}
             />
           </h2>
