@@ -58,3 +58,7 @@ html{
 .boxShadow {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.contact-gradient{
+    background-image: linear-gradient(to left, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fdfdff, #fafbff, #f6faff, #ebf7ff, #def5fc, #d2f3f6, #c9f1eb);
+}

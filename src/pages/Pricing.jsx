@@ -28,14 +28,14 @@ const Pricing = () => {
     <main className="">
       <section>
         <div className="text-center mx-auto lg:mt-[80px] pt-10 lg:w-[529px]">
-          <h2 className="lg:text-[56px] md:text-4xl text-[20px] font-bold md:leading-[70px] fontFamily">
+          <h2 className="lg:text-[56px] md:text-4xl text-[28px] font-bold md:leading-[70px] fontFamily">
             Pricing plans that suit you
           </h2>
-          <p className="md:text-lg text-gray-500 md:mt-[32px] md:mb-[48px]">
+          <p className="md:text-lg my-3 text-gray-500 md:mt-[32px] md:mb-[48px]">
             Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod tempor.
           </p>
-          <div className=" bg-[#e0e4fc]  rounded-2xl py-4 px-3 lg:w-[312px] h-[78px] mx-auto flex gap-1 items-center">
+          <div className=" bg-[#e0e4fc] mb-8 mx-2 rounded-2xl py-4 px-3 md:w-[312px] h-[78px] md:mx-auto flex gap-1 items-center">
             <button
               onClick={() => handleActiveButton("cart")}
               className={
@@ -59,16 +59,12 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-
-        <div className="lg:w-[1140px] mx-auto p-4 mt-16">
-          <img className="mx-auto" src="./image/Dashboard image.png" alt="" />
-        </div>
       </section>
       {/* Phone section */}
-      <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <section className="max-w-7xl px-2 lg:px-0 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* card one */}
-        <div className="md:w-[411px] boxShadow group md:h-[714px] rounded-3xl bg-white hover:border-[2px] border-2 hover:border-[#6b7cff] border-white  hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8] ">
-          <div className="flex items-center gap-6 px-10 pt-5">
+        <div className="lg:w-[411px]  boxShadow group md:h-[714px] rounded-3xl bg-white hover:border-[2px] border-2 hover:border-[#6b7cff] border-white  hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8] ">
+          <div className="flex items-center gap-4 px-10 pt-5">
             <div className="flex items-center gap-4">
               <button className="bg-[#efefef] group-hover:text-[#6c7bf7] w-12 h-12 flex items-center justify-center rounded-full">
                 <RiApps2Fill />
@@ -137,7 +133,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* card two */}
-        <div className="md:w-[411px] group md:h-[714px] rounded-3xl bg-white hover:border-[2px] hover:border-[#6b7cff] border-2 border-white boxShadow hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8]">
+        <div className="lg:w-[411px] group md:h-[714px] rounded-3xl bg-white hover:border-[2px] hover:border-[#6b7cff] border-2 border-white boxShadow hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8]">
           <div className="flex items-center gap-6 px-10 pt-5">
             <div className="flex items-center gap-4">
               <button className="bg-[#efefef] group-hover:text-[#6c7bf7] w-12 h-12 flex items-center justify-center rounded-full">
@@ -208,7 +204,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* card three */}
-        <div className="md:w-[411px] group md:h-[714px] rounded-3xl bg-white hover:border-[2px] hover:border-[#6b7cff] border-2 border-white boxShadow hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8]">
+        <div className="lg:w-[411px] group md:h-[714px] rounded-3xl bg-white hover:border-[2px] hover:border-[#6b7cff] border-2 border-white boxShadow hover:bg-gradient-to-t from-[#d5f1ef] to-[#d7e8f8]">
           <div className="flex items-center gap-6 px-10 pt-5">
             <div className="flex items-center gap-4">
               <button className="bg-[#efefef] group-hover:text-[#6c7bf7] w-12 h-12 flex items-center justify-center rounded-full">
@@ -278,7 +274,7 @@ const Pricing = () => {
         </div>
       </section>
       {/* Frequestly Asked Questions */}
-      <section className="max-w-7xl mx-auto mt-32 rounded-3xl  bg-[#f0f2fe]">
+      <section className="max-w-7xl mb-10 mx-auto mt-32 rounded-3xl  bg-[#f0f2fe]">
         <div className="md:px-16 md:py-16 flex flex-col md:flex-row">
           <div className="flex-1">
             <h2 className="text-5xl font-bold">Frequestly Asked Questions</h2>
