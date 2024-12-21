@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const AboutData = ({about}) => {
 
-    const {img} = about
+    const {img, id} = about
     return (
         <div className="">
-            <NavLink to="/blogs">
-            <img className="h-[258px] object-cover rounded-xl" src={img} alt="" />
+            <NavLink to={`/blogs/${id}`}>
+            <img className="h-[258px] object-cover rounded-3xl" src={img} alt="" />
             </NavLink>
         </div>
     );

@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        gradient: 'animatedgradient 6s ease infinite alternate',
+      },
       textColor: {
         title: "#1d2130",
         description: '#1d2130',
@@ -14,9 +17,10 @@ export default {
       },
       backgroundColor: {
         BtnBg: '#1d2130'
-      }
+      },
+
     },
   },
-  plugins: [daisyui],
+  plugins: [daisyui]
 }
 

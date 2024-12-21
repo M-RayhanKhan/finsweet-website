@@ -4,6 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate-gradient {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 6s ease infinite alternate;
+    -moz-animation: animatedgradient 6s ease infinite alternate;
+    animation: animatedgradient 6s ease infinite alternate;
+  }
+  
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -17,7 +37,12 @@ html{
 }
 
 .discover{
-    background-image: linear-gradient(to right, #0714d9, #0069ff, #008fec, #00acbb, #00c494, #00d18b, #00dd7e, #00e86b, #00ef97, #00f4bc, #20f8da, #5ffbf1);
+    background-image: linear-gradient(to right, #3221e4, #006aff, #008ef5, #00a9d2, #00beb6, #30c6aa, #53cd9b, #74d38a, #64d175, #55cf5d, #47cc41, #3ac916);
+    background-clip: text;
+    color: transparent;
+}
+.discover2{
+    background-image: linear-gradient(to left, blue 50% , green 50%, blue, rgb(33, 206, 11) , rgb(58, 98, 255));
     background-clip: text;
     color: transparent;
 }

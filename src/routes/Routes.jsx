@@ -7,6 +7,7 @@ import Pricing from "../pages/Pricing";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Blog from "../pages/Blog";
+import BlogTitle from "../components/blogsContainer/BlogTitle";
 
 
 const router = createBrowserRouter([
@@ -38,7 +39,29 @@ const router = createBrowserRouter([
         },
         {
             path: '/blogs',
-            element: <Blog/>
+            element: <Blog/>,
+            children: [
+                {
+                    path: '/blogs',
+                    element: <BlogTitle/>,
+                    loader: async () => {
+                        const blogsRes = await fetch('/blogs.json');
+                        const blogsData = await blogsRes.json();
+                        const data = blogsData.find(blog => blog.id == blog.id );
+                        return {data}
+                    }
+                },
+                {
+                    path: '/blogs/:id',
+                    element: <BlogTitle/>,
+                    loader: async ({params}) => {
+                        const blogsRes = await fetch('/blogs.json');
+                        const blogsData = await blogsRes.json();
+                        const data = blogsData.find(blog => blog.id == params.id);
+                        return {data}
+                    }
+                }
+            ]
         },
         {
             path: '/contact',
